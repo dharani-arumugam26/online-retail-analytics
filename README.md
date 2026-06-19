@@ -1,0 +1,163 @@
+# Online Retail Analytics Project
+
+## Project Overview
+
+This project analyzes one year of online retail transaction data to uncover revenue trends, customer purchasing behavior, product performance, and business opportunities. The analysis includes data assessment, data cleaning, exploratory data analysis (EDA), customer analytics, and RFM customer segmentation.
+
+The goal of this project is to transform raw transactional data into actionable business insights that can support decision-making in marketing, customer retention, inventory management, and revenue growth.
+
+---
+
+## Dataset Information
+
+The dataset contains online retail transactions between December 2010 and December 2011.
+
+### Key Features
+
+* InvoiceNo
+* StockCode
+* Description
+* Quantity
+* InvoiceDate
+* UnitPrice
+* CustomerID
+* Country
+
+Each row represents a product purchased within a customer invoice.
+
+---
+
+## Project Workflow
+
+### 1. Data Understanding & Assessment
+
+The dataset was assessed for:
+
+* Missing values
+* Duplicate records
+* Data type issues
+* StockCode–Description inconsistencies
+* CustomerID missingness
+* Product returns and cancellations
+* Country-level anomalies
+
+### 2. Data Cleaning
+
+Cleaning steps included:
+
+* Removing duplicate records
+* Converting InvoiceDate to datetime format
+* Imputing recoverable Description values
+* Creating a RecordType feature
+* Optimizing data types
+* Exporting a cleaned dataset
+
+### 3. Feature Engineering
+
+New features created:
+
+* Revenue
+* Year
+* Month
+* MonthName
+* DayOfWeek
+* Hour
+* YearMonth
+
+### 4. Exploratory Data Analysis
+
+Analysis areas:
+
+* Revenue Analysis
+* Time-Based Analysis
+* Country Analysis
+* Product Analysis
+* Customer Analysis
+
+### 5. RFM Customer Segmentation
+
+Customers were segmented using:
+
+* Recency
+* Frequency
+* Monetary Value
+
+Customer segments include:
+
+* Champions
+* Loyal Customers
+* Potential Loyalists
+* At Risk Customers
+* Lost Customers
+
+---
+
+## Key Findings
+
+### Revenue Performance
+
+* Net Revenue: ~£9.73 Million
+* Return Rate: ~9.4%
+
+### Time Analysis
+
+* Highest Revenue Month: November 2011
+* Highest Revenue Day: Thursday
+* Peak Revenue Hour: 12 PM
+
+### Country Analysis
+
+Top international markets:
+
+* Netherlands
+* EIRE (Ireland)
+* Germany
+* France
+* Australia
+
+### Product Analysis
+
+* Highest Revenue Product: REGENCY CAKESTAND 3 TIER
+* Highest Quantity Sold: WORLD WAR 2 GLIDERS ASSTD DESIGNS
+* Most Frequently Ordered Product: WHITE HANGING HEART T-LIGHT HOLDER
+
+### Customer Analysis
+
+* Highest Revenue Customer: CustomerID 14646
+* Champions generated the largest share of customer revenue.
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Google Colab
+
+---
+
+## Project Outputs
+
+* Cleaned Retail Dataset
+* RFM Customer Segmentation Dataset
+* Business Insights & Recommendations
+* Executive Summary
+
+---
+
+## Business Recommendations
+
+* Prioritize high-performing products.
+* Strengthen loyalty programs for Champions and Loyal Customers.
+* Re-engage Lost and At-Risk customers.
+* Focus marketing efforts during peak purchasing hours.
+* Expand business activities in strong international markets.
+
+---
+
+## Conclusion
+
+This project demonstrates an end-to-end data analytics workflow, covering data assessment, cleaning, exploratory analysis, customer segmentation, and business recommendations. The findings provide actionable insights that can help improve customer retention, inventory planning, and overall business performance.
