@@ -141,8 +141,10 @@ Top international markets:
 
 ## Project Outputs
 
-* Cleaned Retail Dataset
-* RFM Customer Segmentation Dataset
+* Customer RFM Segmentation Dataset
+* Data Assessment Notebook
+* Data Cleaning Notebook
+* Exploratory Data Analysis Notebook
 * Business Insights & Recommendations
 * Executive Summary
 
